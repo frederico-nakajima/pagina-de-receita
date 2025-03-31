@@ -3,24 +3,25 @@
   padding: 0;
 }
 img{
-  border-radius:16px;
-  margin-top: 24px;  
+  border-radius:16px; 
 }
 :root{
   font-family:'Alice',serif;
 }
 body{
   background-image: url(assets/bg-image.png);
+  background-color:rgb(78, 58, 17) ;
   background-size: cover;
 }
 #page{
-  margin:48px auto;
+  margin:48px auto auto;
   background-color:#F0E8C2 ;
   border-radius: 24px;
-  padding: 24px;
+  padding: 24px 24px 20px 24px;
   box-sizing: border-box;
   width:800px;
-  margin:48px auto;  
+  margin-bottom:20px;
+    
 }
 #ingredients{
   margin-top: 24px;
@@ -53,4 +54,12 @@ ul{
 p+p{
   margin-top:24px;
 }
+footer{
+  color:#ffff;
+  text-align: center;
+  margin-bottom: 40px;
 
+}
+footer img{
+  vertical-align: text-bottom;
+}
